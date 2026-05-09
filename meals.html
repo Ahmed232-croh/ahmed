@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<div id="navbar">
+<div id="pages">
     <a href="index.html">الرئيسية</a> |
     <a href="aboutus.html">من نحن</a> |
     <a href="meals.html">الوجبات</a>
@@ -16,7 +16,7 @@
 
 <div id="main">
 
-    <h1>🍽️ قائمة الوجبات</h1>
+    <h1> قائمة الوجبات</h1>
     <hr>
 
     <table>
@@ -101,23 +101,23 @@
     </table>
 
     <br>
-    <button onclick="showForm()">متابعة ←</button>
+    <button onclick="showForm()">متابعة</button>
 
     <br><br>
 
     <div id="orderForm" style="display:none">
         <hr>
-        <h3>📝 بيانات الطلب</h3>
+        <h3> بيانات الطلب</h3>
 
-        الاسم الكامل بالإنكليزية: <input type="text" id="name" placeholder="Ahmad Mohammad">
+        الاسم الكامل بالإنكليزية: <input type="text" id="name">
         <br><br>
-        رقم الحساب المصرفي (6 أرقام - مطلوب): <input type="text" id="bank" maxlength="6" placeholder="055555">
+        رقم الحساب المصرفي 6 ارقام *: <input type="text" id="bank" maxlength="6">
         <br><br>
-        تاريخ الطلب (yyyy-mm-dd): <input type="text" id="date" placeholder="2026-05-10">
+        تاريخ الطلب : <input type="text" id="date">
         <br><br>
-        رقم الموبايل: <input type="text" id="phone" placeholder="0991234567">
+        رقم الموبايل: <input type="text" id="phone">
         <br><br>
-        <button onclick="sendOrder()">✅ إرسال</button>
+        <button onclick="sendOrder()">إرسال</button>
     </div>
 
 </div>
